@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		471E231B200DCA49001C584B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 471E231A200DCA49001C584B /* AppDelegate.m */; };
 		471E2321200DCA49001C584B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471E231F200DCA49001C584B /* Main.storyboard */; };
 		471E2323200DCA49001C584B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471E2322200DCA49001C584B /* Assets.xcassets */; };
 		471E2326200DCA49001C584B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471E2324200DCA49001C584B /* LaunchScreen.storyboard */; };
-		471E2329200DCA49001C584B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 471E2328200DCA49001C584B /* main.m */; };
-		471E2333200DCA49001C584B /* wheel_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471E2332200DCA49001C584B /* wheel_iosTests.m */; };
-		471E233E200DCA49001C584B /* wheel_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471E233D200DCA49001C584B /* wheel_iosUITests.m */; };
-		471E234E200DCBD6001C584B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471E234C200DCBD6001C584B /* LoginViewController.m */; };
 		471E234F200DCBD6001C584B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471E234D200DCBD6001C584B /* LoginViewController.xib */; };
+		47AD36F32026DA0A0018E71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD36F22026DA0A0018E71D /* AppDelegate.swift */; };
+		47AD36F72026E2F70018E71D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AD36F62026E2F70018E71D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +34,15 @@
 
 /* Begin PBXFileReference section */
 		471E2316200DCA49001C584B /* wheel-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wheel-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		471E2319200DCA49001C584B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		471E231A200DCA49001C584B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		471E2320200DCA49001C584B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		471E2322200DCA49001C584B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		471E2325200DCA49001C584B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		471E2327200DCA49001C584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		471E2328200DCA49001C584B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		471E232E200DCA49001C584B /* wheel-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wheel-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		471E2332200DCA49001C584B /* wheel_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wheel_iosTests.m; sourceTree = "<group>"; };
-		471E2334200DCA49001C584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		471E2339200DCA49001C584B /* wheel-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wheel-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		471E233D200DCA49001C584B /* wheel_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wheel_iosUITests.m; sourceTree = "<group>"; };
-		471E233F200DCA49001C584B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		471E234B200DCBD6001C584B /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		471E234C200DCBD6001C584B /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		471E234D200DCBD6001C584B /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		47AD36F22026DA0A0018E71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47AD36F62026E2F70018E71D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				471E2318200DCA49001C584B /* wheel-ios */,
-				471E2331200DCA49001C584B /* wheel-iosTests */,
-				471E233C200DCA49001C584B /* wheel-iosUITests */,
 				471E2317200DCA49001C584B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,36 +91,15 @@
 		471E2318200DCA49001C584B /* wheel-ios */ = {
 			isa = PBXGroup;
 			children = (
-				471E2319200DCA49001C584B /* AppDelegate.h */,
-				471E231A200DCA49001C584B /* AppDelegate.m */,
-				471E234B200DCBD6001C584B /* LoginViewController.h */,
-				471E234C200DCBD6001C584B /* LoginViewController.m */,
+				47AD36F22026DA0A0018E71D /* AppDelegate.swift */,
+				47AD36F62026E2F70018E71D /* LoginViewController.swift */,
 				471E231F200DCA49001C584B /* Main.storyboard */,
 				471E234D200DCBD6001C584B /* LoginViewController.xib */,
 				471E2322200DCA49001C584B /* Assets.xcassets */,
 				471E2324200DCA49001C584B /* LaunchScreen.storyboard */,
 				471E2327200DCA49001C584B /* Info.plist */,
-				471E2328200DCA49001C584B /* main.m */,
 			);
 			path = "wheel-ios";
-			sourceTree = "<group>";
-		};
-		471E2331200DCA49001C584B /* wheel-iosTests */ = {
-			isa = PBXGroup;
-			children = (
-				471E2332200DCA49001C584B /* wheel_iosTests.m */,
-				471E2334200DCA49001C584B /* Info.plist */,
-			);
-			path = "wheel-iosTests";
-			sourceTree = "<group>";
-		};
-		471E233C200DCA49001C584B /* wheel-iosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				471E233D200DCA49001C584B /* wheel_iosUITests.m */,
-				471E233F200DCA49001C584B /* Info.plist */,
-			);
-			path = "wheel-iosUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +169,7 @@
 				TargetAttributes = {
 					471E2315200DCA49001C584B = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					471E232D200DCA49001C584B = {
@@ -269,9 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471E2329200DCA49001C584B /* main.m in Sources */,
-				471E231B200DCA49001C584B /* AppDelegate.m in Sources */,
-				471E234E200DCBD6001C584B /* LoginViewController.m in Sources */,
+				47AD36F32026DA0A0018E71D /* AppDelegate.swift in Sources */,
+				47AD36F72026E2F70018E71D /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471E2333200DCA49001C584B /* wheel_iosTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				471E233E200DCA49001C584B /* wheel_iosUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,11 +399,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQLB6TTE43;
 				INFOPLIST_FILE = "wheel-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cathywrhua.wheel-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -447,11 +417,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BQLB6TTE43;
 				INFOPLIST_FILE = "wheel-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cathywrhua.wheel-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -459,6 +433,7 @@
 		471E2346200DCA49001C584B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "wheel-iosTests/Info.plist";
@@ -473,6 +448,7 @@
 		471E2347200DCA49001C584B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "wheel-iosTests/Info.plist";
@@ -487,6 +463,7 @@
 		471E2349200DCA49001C584B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "wheel-iosUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -500,6 +477,7 @@
 		471E234A200DCA49001C584B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "wheel-iosUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
